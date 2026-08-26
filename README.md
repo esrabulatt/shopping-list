@@ -1,16 +1,25 @@
-# React + Vite
+# 🛒 Shopping List & Budget Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React, Vite ve Tailwind CSS kullanılarak geliştirilmiş, kullanıcıların alışveriş listelerini ve bütçelerini dinamik olarak yönetebilmelerini sağlayan responsive bir web uygulaması.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dinamik Ürün Ekleme/Silme:** Ürün ismi, miktar ve fiyat bilgisi ile hızlıca listeye ekleme yapabilme.
+- **Bütçe Takibi:** Belirlenen toplam bütçe üzerinden harcamaları anlık hesaplama ve kalan bütçeyi görselleştirme.
+- **Kategori Bazlı Filtreleme:** Ürünleri kategorilerine göre listeleme ve tamamlama durumuna göre (alındı/alınmadı) işaretleme.
+- **Kalıcı Veri (LocalStorage):** Sayfa yenilendiğinde verilerin kaybolmaması için yerel depolama entegrasyonu.
+- **Mobil Uyumlu Arayüz:** Tailwind CSS ile tasarlanmış tam responsive UI/UX.
 
-## React Compiler
+## 🛠️ Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS, Lucide React (İkonlar)
+- **Paket Yöneticisi:** pnpm
 
-## Expanding the Oxlint configuration
+## 📦 Kurulum ve Çalıştırma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Projeyi yerel ortamınızda çalıştırmak için:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/esrabulatt/shopping-list.git](https://github.com/esrabulatt/shopping-list.git)
